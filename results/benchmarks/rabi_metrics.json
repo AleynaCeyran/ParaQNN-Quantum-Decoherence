@@ -1,0 +1,19 @@
+{
+    "benchmark_mse": {
+        "RF": 0.014829833085386346,
+        "XGB": 0.049018558181844946,
+        "PINN_Incomplete": 0.01551793330090345,
+        "PINN_Known": 0.26313361987835254,
+        "GAN": 0.09080588052590054,
+        "ParaQNN": 0.00026927725325898486
+    },
+    "noise_regime": {
+        "T1_us": 12.0,
+        "T2_us": 15.0,
+        "rabi_frequency_MHz": 1.25,
+        "gaussian_std": 0.08,
+        "telegraph_amplitude": 0.1,
+        "telegraph_switching_rate": 0.02,
+        "saturation_total": 0.0339
+    }
+}
