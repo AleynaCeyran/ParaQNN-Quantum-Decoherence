@@ -1,3 +1,13 @@
+## Reproducibility Snapshot
+
+This repository provides the frozen computational snapshot used in the journal submission:
+
+**ParaQNN v1.0 — Journal Submission Release**  
+Tag: `v1.0`
+
+All figures, benchmarks, and numerical results in the manuscript are directly reproducible from this release.
+
+
 # Equation-Free Discovery of Open Quantum Systems via Paraconsistent Neural Networks
 
 [![License: Dual](https://img.shields.io/badge/License-Dual_Academic%2FCommercial-blue.svg)](#license)
