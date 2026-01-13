@@ -103,7 +103,7 @@ The results reported in the manuscript were generated using:
 
 - Git commit: `v1.0`
 - Python: 3.10
-- PyTorch: 2.9
+- PyTorch: 2.5+
 - CUDA: 12.8
 - Random seeds: 42–46
 - Config files:
