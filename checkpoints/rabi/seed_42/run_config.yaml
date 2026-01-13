@@ -1,0 +1,53 @@
+experiment:
+  id: rabi_oscillation_damping
+  version: 1.5.1
+  seeds: [42, 43, 44, 45, 46]
+  device: cuda
+data:
+  path: data/synthetic/rabi_oscillations.npz
+  test_split: 0.2
+  shuffle: true
+  num_workers: 0
+  labels: train_test_mask
+physics:
+  coherence_time: 15.0
+  rabi_frequency: 1.25
+  time_span: 8.0
+  total_samples: 10000
+  T1: 12.0
+noise:
+  gaussian_std: 0.08
+  telegraph_amplitude: 0.1
+  telegraph_switching_rate: 0.02
+model:
+  architecture: ParaQNN
+  input_dim: 1
+  output_dim: 1
+  hidden_layers: 3
+  neurons_per_layer: 128
+  activation: paraconsistent
+  initial_alpha: 6.0
+  sharpness_k: 1.0
+training:
+  optimizer: Adam
+  learning_rate: 0.001
+  epochs: 1500
+  batch_size: 256
+  weight_decay: 1e-6
+  scheduler:
+    type: ReduceLROnPlateau
+    patience: 100
+    factor: 0.5
+loss:
+  lambda_signal: 1.0
+  lambda_noise: 0.5
+  lambda_contradiction: 0.5
+checkpointing:
+  save_dir: checkpoints/rabi
+  save_best_only: true
+  monitor: val_loss
+measurement:
+  clip_min: 0.0
+  clip_max: 1.0
+  report_metrics:
+  - saturation
