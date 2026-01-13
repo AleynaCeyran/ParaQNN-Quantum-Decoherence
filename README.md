@@ -90,7 +90,6 @@ python src/benchmarks/lindblad.py --config configs/lindblad.yaml
 python src/benchmarks/mixed_regime.py --config configs/mixed_regime.yaml
 
 Figure generation
-Figure generation
 python src/visualization/rabi_plotting.py
 python src/visualization/lindblad_plotting.py
 python src/visualization/mixed_regime_plotting.py
