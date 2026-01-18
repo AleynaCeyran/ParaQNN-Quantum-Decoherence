@@ -1,6 +1,7 @@
 # Equation-Free Discovery of Open Quantum Systems via Paraconsistent Neural Networks
 
-[![License: Dual](https://img.shields.io/badge/License-Dual_Academic%2FCommercial-blue.svg)](#license)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18294075.svg)](https://doi.org/10.5281/zenodo.18294075)
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://www.python.org/)
 [![Framework](https://img.shields.io/badge/PyTorch-2.0%2B-ee4c2c)](https://pytorch.org/)
 [![Status](https://img.shields.io/badge/Status-Submission_Ready-success)]()
@@ -146,14 +147,13 @@ No external or proprietary datasets are required to reproduce the results.
 The exact datasets used in the manuscript are archived in the corresponding Zenodo release.
 
 ## Citation
+
 @article{ceyran2026paraqnn,
   title={Equation-Free Discovery of Open Quantum Systems via Paraconsistent Neural Networks},
   author={Ceyran, Aleyna and Abe, Jair Minoro},
 }
 
 ## License
-
-[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 This project is licensed under the **Apache License 2.0**.  
 You are free to use, modify, and distribute this software for academic or commercial purposes, provided that proper attribution is given. See the [LICENSE](LICENSE) file for details.
