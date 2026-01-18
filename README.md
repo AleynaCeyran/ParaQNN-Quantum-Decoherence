@@ -1,6 +1,5 @@
 # Equation-Free Discovery of Open Quantum Systems via Paraconsistent Neural Networks
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18294075.svg)](https://doi.org/10.5281/zenodo.18294075)
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://www.python.org/)
 [![Framework](https://img.shields.io/badge/PyTorch-2.0%2B-ee4c2c)](https://pytorch.org/)
