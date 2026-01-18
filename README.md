@@ -143,7 +143,7 @@ python src/benchmarks/mixed_regime.py --config configs/mixed_quick.yaml
 All datasets used in this work are generated deterministically by the simulation scripts in this repository.
 No external or proprietary datasets are required to reproduce the results.
 
-The exact datasets used in the manuscript are archived in the corresponding Zenodo release (see DOI in the paper).
+The exact datasets used in the manuscript are archived in the corresponding Zenodo release.
 
 ## Citation
 @article{ceyran2026paraqnn,
