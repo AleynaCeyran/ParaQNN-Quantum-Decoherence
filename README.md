@@ -152,10 +152,8 @@ The exact datasets used in the manuscript are archived in the corresponding Zeno
 }
 
 ## License
-This project is released under a Dual License:
 
-Academic/Non-Commercial: Free to use under MIT-like terms for research.
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
-Commercial: Requires a separate license for proprietary use.
-See LICENSE.md for the full legal terms of the dual-license agreement.
-
+This project is licensed under the **Apache License 2.0**.  
+You are free to use, modify, and distribute this software for academic or commercial purposes, provided that proper attribution is given. See the [LICENSE](LICENSE) file for details.
