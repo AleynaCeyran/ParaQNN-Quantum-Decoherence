@@ -12,11 +12,11 @@
 
 ## Abstract
 
-This repository presents the official implementation of **ParaQNN**, a novel neuro-symbolic architecture that integrates Paraconsistent Logic ($\tau$-Lattice) with deep learning to solve inverse problems in open quantum dynamics.
+This repository provides the official implementation of ParaQNN, a neuro-symbolic learning framework that integrates Paraconsistent Logic ($\tau$-lattice) with deep neural networks for inverse modeling in open quantum dynamics.
 
-Standard Physics-Informed Neural Networks (PINNs) typically struggle when the underlying governing equations are unknown or when data is heavily corrupted by non-Gaussian noise (e.g., SPAM errors, telegraph noise). ParaQNN addresses this limitation by treating environmental noise and decoherence not merely as statistical outliers, but as **"contradictory evidence"** within a non-classical logical framework.
+Conventional physics-informed learning approaches rely on explicit governing equations and often degrade in regimes where such equations are incomplete, mismatched, or obscured by strongly non-Gaussian noise, including SPAM errors and telegraph processes. ParaQNN adopts a different epistemic stance by treating decoherence and environmental disturbances as structured, informative evidence rather than residual statistical error, formalized within a non-classical logical framework.
 
-By assigning a "Degree of Contradiction" ($\lambda$) to the loss landscape, the model autonomously learns to disentangle coherent unitary evolution (truth) from dissipative noise channels (falsity) directly from raw time-series data. This approach enables equation-free discovery of physical laws without relying on differential equation solvers or prior Hamiltonian assumptions.
+Central to the architecture is a learnable Degree of Contradiction ($\lambda$) embedded in the loss formulation, which enables the model to separate coherent unitary evolution from dissipative noise contributions directly from raw time-series measurements. This design supports equation-free reconstruction and characterization of quantum dynamics in settings where predefined differential equation solvers or explicit Hamiltonian models are unreliable or unavailable.
 
 ---
 ## Project Structure
