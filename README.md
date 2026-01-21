@@ -1,4 +1,4 @@
-# Learning quantum decoherence via paraconsistent logic: an equation-free neural network framework
+# Learning Quantum Decoherence via Paraconsistent Logic: An Equation-Free Neural Network Framework
 
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://www.python.org/)
