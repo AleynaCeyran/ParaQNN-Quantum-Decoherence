@@ -1,0 +1,241 @@
+# =============================================================================
+# ParaQNN — .gitignore
+# Python · PyTorch · Jupyter · Data/Results · OS & Editor artifacts
+# =============================================================================
+
+# -----------------------------------------------------------------------------
+# Python
+# -----------------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# -----------------------------------------------------------------------------
+# Virtual Environments
+# -----------------------------------------------------------------------------
+venv/
+env/
+ENV/
+.venv/
+.env/
+env.bak/
+venv.bak/
+.python-version
+
+# -----------------------------------------------------------------------------
+# PyTorch / Deep Learning
+# -----------------------------------------------------------------------------
+# Model checkpoints & weights
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+
+# Keep checkpoint directory structure but not the files
+results/checkpoints/*
+!results/checkpoints/.gitkeep
+
+# TensorBoard logs
+runs/
+logs/
+lightning_logs/
+wandb/
+mlruns/
+.neptune/
+
+# -----------------------------------------------------------------------------
+# Data
+# -----------------------------------------------------------------------------
+# Generated synthetic datasets (reproducible via simulation scripts)
+data/*.npy
+data/*.npz
+data/*.csv
+data/*.h5
+data/*.hdf5
+data/*.pkl
+data/*.pickle
+
+# Keep directory structure
+!data/.gitkeep
+!data/README.md
+
+# Zenodo / external archives
+*.zip
+*.tar.gz
+*.tar.bz2
+
+# -----------------------------------------------------------------------------
+# Results & Figures
+# -----------------------------------------------------------------------------
+# Generated figures (reproducible via plotting scripts)
+results/figures/*.png
+results/figures/*.pdf
+results/figures/*.svg
+results/figures/*.eps
+
+# Keep directory structure and any hand-crafted reference figures
+!results/figures/.gitkeep
+!results/figures/README.md
+
+# Raw experiment outputs
+results/raw/
+results/metrics/*.json
+results/metrics/*.csv
+
+# -----------------------------------------------------------------------------
+# Jupyter Notebooks
+# -----------------------------------------------------------------------------
+# Strip output cells before committing (use nbstripout or pre-commit hook)
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Notebook execution artifacts
+profile_default/
+ipython_config.py
+
+# -----------------------------------------------------------------------------
+# Testing & Coverage
+# -----------------------------------------------------------------------------
+.pytest_cache/
+.tox/
+.nox/
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+*.py,cover
+nosetests.xml
+test-results/
+
+# -----------------------------------------------------------------------------
+# Linting & Type Checking
+# -----------------------------------------------------------------------------
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.ruff_cache/
+.pytype/
+
+# -----------------------------------------------------------------------------
+# Documentation
+# -----------------------------------------------------------------------------
+docs/_build/
+docs/api/
+site/
+.mkdocs_cache/
+
+# -----------------------------------------------------------------------------
+# Environment & Secrets
+# -----------------------------------------------------------------------------
+.env
+.env.local
+.env.*.local
+*.env
+secrets.yaml
+secrets.json
+api_keys.txt
+
+# -----------------------------------------------------------------------------
+# OS Artifacts
+# -----------------------------------------------------------------------------
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# -----------------------------------------------------------------------------
+# Editors & IDEs
+# -----------------------------------------------------------------------------
+
+# VS Code
+.vscode/
+!.vscode/extensions.json
+!.vscode/settings.json.example
+
+# PyCharm / JetBrains
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Vim / Neovim
+*.swp
+*.swo
+*~
+.netrwhist
+
+# Emacs
+*~
+\#*\#
+.\#*
+
+# Spyder
+.spyderproject.db
+.spyproject/
+
+# Rope
+.ropeproject/
+
+# -----------------------------------------------------------------------------
+# CUDA / GPU Profiling
+# -----------------------------------------------------------------------------
+*.nsys-rep
+*.qdrep
+*.nvvp
+*.ncu-rep
+
+# -----------------------------------------------------------------------------
+# Misc
+# -----------------------------------------------------------------------------
+*.log
+*.tmp
+*.temp
+*.bak
+*.orig
+*.rej
+.cache/
+tmp/
+temp/
+scratch/
