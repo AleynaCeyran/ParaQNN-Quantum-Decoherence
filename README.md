@@ -7,7 +7,7 @@
 [![arXiv](https://img.shields.io/badge/arXiv-2601.12635-b31b1b.svg)](https://arxiv.org/abs/2601.12635)
 [![Python 3.8+](https://img.shields.io/badge/Python-3.8%2B-3776ab.svg?logo=python&logoColor=white)](https://www.python.org/)
 [![PyTorch 2.0+](https://img.shields.io/badge/PyTorch-2.0%2B-ee4c2c.svg?logo=pytorch&logoColor=white)](https://pytorch.org/)
-[![License: Dual](https://img.shields.io/badge/License-Dual_Academic%2FCommercial-blue.svg)](#license)
+[![License: Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![Status](https://img.shields.io/badge/Status-Submission_Ready-success.svg)]()
 [![Code Style: Black](https://img.shields.io/badge/Code_Style-Black-000000.svg)](https://github.com/psf/black)
 
@@ -32,7 +32,6 @@
 - [Repository Structure](#repository-structure)
 - [Reproducing Paper Results](#reproducing-paper-results)
 - [Reproducibility Snapshot](#reproducibility-snapshot)
-- [Data Availability](#data-availability)
 - [Citation](#citation)
 - [License](#license)
 - [Acknowledgements](#acknowledgements)
@@ -170,7 +169,6 @@ ParaQNN-Quantum-Decoherence/
 │       ├── lindblad_plotting.py
 │       └── mixed_regime_plotting.py
 │
-├── data/                        # Synthetic datasets (generated deterministically)
 ├── notebooks/                   # Step-by-step reproduction walkthrough
 ├── configs/                     # Hyperparameter configurations (.yaml)
 │   ├── rabi.yaml
@@ -240,16 +238,6 @@ Config files: `configs/rabi.yaml` · `configs/lindblad.yaml` · `configs/mixed_r
 
 ---
 
-## Data Availability
-
-All datasets are generated **deterministically** by the simulation scripts in this repository. No external or proprietary datasets are required.
-
-The exact datasets used in the manuscript are archived at Zenodo (DOI provided in the paper).
-
-To regenerate datasets from scratch, run the data generation scripts in Step 1 above.
-
----
-
 ## Citation
 
 If you use this code or find this work helpful, please cite:
@@ -269,12 +257,31 @@ If you use this code or find this work helpful, please cite:
 
 ## License
 
-This project is released under a **Dual License**:
+This project is licensed under the **Apache License, Version 2.0**.
 
-- **Academic / Non-Commercial:** Free to use under MIT-like terms for research and educational purposes.
-- **Commercial:** Requires a separate commercial license for proprietary or for-profit use.
+```
+Copyright 2026 Aleyna Ceyran, Jair Minoro Abe
 
-See [`LICENSE.md`](LICENSE.md) for full legal terms.
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+```
+
+See [`LICENSE`](LICENSE) for the full license text.
+
+Key permissions under Apache 2.0:
+- Free to use, modify, and distribute for any purpose (including commercial)
+- Patent rights explicitly granted to users
+- No copyleft — derivative works may use any license
+- Must retain copyright notice and state any changes made
 
 ---
 
