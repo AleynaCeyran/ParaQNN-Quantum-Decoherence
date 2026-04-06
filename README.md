@@ -11,9 +11,6 @@
 [![Status](https://img.shields.io/badge/Status-Submission_Ready-success.svg)]()
 [![Code Style: Black](https://img.shields.io/badge/Code_Style-Black-000000.svg)](https://github.com/psf/black)
 
-<p align="center">
-  <img src="results/figures/mixed_regime_reconstruction.png" width="780" alt="ParaQNN Mixed Regime Reconstruction"/>
-</p>
 
 **ParaQNN** is a neuro-symbolic architecture that integrates Paraconsistent Logic (τ-Lattice) with deep learning to solve inverse problems in open quantum dynamics — **without any governing equations**.
 
