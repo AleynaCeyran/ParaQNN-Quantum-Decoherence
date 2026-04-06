@@ -235,22 +235,6 @@ Config files: `configs/rabi.yaml` · `configs/lindblad.yaml` · `configs/mixed_r
 
 ---
 
-## Citation
-
-If you use this code or find this work helpful, please cite:
-
-```bibtex
-@article{ceyran2026paraqnn,
-  title   = {Learning quantum decoherence via paraconsistent logic:
-             an equation-free neural network framework},
-  author  = {Ceyran, Aleyna and Abe, Jair Minoro},
-  journal = {arXiv preprint arXiv:2601.12635},
-  year    = {2026},
-  url     = {https://arxiv.org/abs/2601.12635}
-}
-```
-
----
 
 ## License
 
@@ -286,10 +270,5 @@ Key permissions under Apache 2.0:
 
 - **Paraconsistent logic foundations:** Da Costa (1974), Da Silva Filho et al. (2011–2016)
 - **Paraconsistent Artificial Neural Network lineage:** Abe et al. (2004–2015)
-- This work was conducted at the Department of Physics, Sakarya University, in collaboration with the Graduate Program in Production Engineering, Paulista University (UNIP), São Paulo, Brazil.
 
 ---
-
-<div align="center">
-<sub>Correspondence: <a href="mailto:aleyna.ceyran@ogr.sakarya.edu.tr">aleyna.ceyran@ogr.sakarya.edu.tr</a></sub>
-</div>
