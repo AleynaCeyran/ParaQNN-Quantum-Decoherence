@@ -14,7 +14,7 @@
 
 **ParaQNN** is a neuro-symbolic architecture that integrates Paraconsistent Logic (τ-Lattice) with deep learning to solve inverse problems in open quantum dynamics — **without any governing equations**.
 
-[Paper](#citation) · [Quick Start](#quick-start) · [Reproduce Results](#reproducing-paper-results) · [Report Issue](https://github.com/AleynaCeyran/ParaQNN-Quantum-Decoherence/issues)
+[Paper](#citation) · [Quick Start](#quick-start) · [Reproduce Results](#reproducing-paper-results) · [Report Issue](https://anonymous.4open.science/r/ParaQNN-Quantum-Decoherence-B953)
 
 </div>
 
@@ -81,7 +81,7 @@ ParaQNN outperforms the strongest baselines by **2–5 orders of magnitude** acr
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/AleynaCeyran/ParaQNN-Quantum-Decoherence.git
+git clone https://anonymous.4open.science/r/ParaQNN-Quantum-Decoherence-B953
 cd ParaQNN-Quantum-Decoherence
 
 # 2. (Recommended) Create a virtual environment
@@ -241,7 +241,7 @@ Config files: `configs/rabi.yaml` · `configs/lindblad.yaml` · `configs/mixed_r
 This project is licensed under the **Apache License, Version 2.0**.
 
 ```
-Copyright 2026 Aleyna Ceyran, Jair Minoro Abe
+Copyright 2026 [Author information anonymized for peer review]
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
